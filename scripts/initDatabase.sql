@@ -15,7 +15,7 @@ use DataWarehouse
 go
 create schema bronze;
 go
-create schema sliver;
+create schema silver;
 go
 create schema gold;
 
