@@ -1,8 +1,10 @@
-
--- this create  bronze tables 
-
+----------------------------------------------------------------
+--Thist Stored Procedure: Load Bronze Layer
+--usage ex:
 EXEC bronze.load_bronze ;
+-----------------------------------------------------------------
 
+-- THIS CREATE BRONZE TABLES
 CREATE OR ALTER PROCEDURE bronze.load_bronze AS
   BEGIN
       declare @startTime datetime , @endTime datetime, @batchSTime datetime, @batchETime datetime;
